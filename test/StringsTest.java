@@ -42,6 +42,6 @@ public class StringsTest {
     @Test
     public void testEmptyStringIsDigit() {
         boolean actual = Strings.isDigit("");
-        assertEquals(true, actual);
+        assertFalse(actual);
     }
 }

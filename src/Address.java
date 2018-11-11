@@ -22,6 +22,7 @@ public class Address {
         return "Address{" + houseNumber + " " + street + " Street}";
     }
 
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
