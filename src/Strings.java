@@ -12,8 +12,11 @@ public class Strings {
     }
 
     public static boolean isDigit(String string) {
-        return string
-                .chars()
-                .allMatch(Character::isDigit);
+        if (string.length() != 0) {
+            return string
+                    .chars()
+                    .allMatch(Character::isDigit);
+        }
+        return false;
     }
 }
